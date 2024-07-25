@@ -38,6 +38,5 @@ def printStrongNess(input_string):
 # Driver code 
 if __name__=="__main__": 
 	
-	input_string = "Alisha@243"
-	print(input_string)
+	input_string = input("Enter a password to check its strength:")
 	printStrongNess(input_string) 
